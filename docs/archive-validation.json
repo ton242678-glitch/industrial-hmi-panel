@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "all_archive_pages_preserved": 78,
+  "control_binding_fields_compared": 4647,
+  "geometry_and_bindings_unchanged": true,
+  "resource_bytes_preserved": true,
+  "main_pages": 13,
+  "alarm_definitions": 14,
+  "previews_checked": 13,
+  "archive_sha256": "3a6d7f74813db33bae1034f59735e1063123b1774f2f3ad12df6114a045b05ff",
+  "original_compile_and_hardware": "completed, confirmed by author",
+  "browser_check": {
+    "screens": 13,
+    "decodedImages": 13,
+    "mobileOverflow": false,
+    "pageErrors": []
+  }
+}

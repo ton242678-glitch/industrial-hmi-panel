@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>产线触摸屏控制方案 · Ton</title>
+  <meta name="description" content="800×480 触摸屏方案：手动控制、自动运行、报警、参数与库位管理，附可下载工程与 13 个画面预览。">
+  <link rel="stylesheet" href="assets/showcase.css">
+  <script src="assets/project-data.js" defer></script><script src="assets/showcase.js" defer></script>
+</head>
+<body>
+  <header class="top"><a class="brand" href="https://github.com/ton242678-glitch">TON<span> / AUTOMATION</span></a><a href="https://github.com/ton242678-glitch/industrial-hmi-panel">GitHub 源文件 ↗</a></header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">HUMAN–MACHINE INTERFACE / 工程实践</p><h1>产线触摸屏控制方案</h1><p class="intro">把设备操作、运行状态与异常信息组织在同一块屏幕上。<br>从输送和搬运，到灌装、旋盖称重与库位管理。</p>
+      <div class="hero-links"><a class="primary" href="https://github.com/ton242678-glitch/industrial-hmi-panel/raw/refs/heads/main/engineering/industrial-panel-demo.xjp">下载触摸屏工程 <span>↓</span></a><a href="https://github.com/ton242678-glitch/industrial-hmi-panel#readme">阅读方案说明 ↗</a></div></div>
+      <div class="spec"><div><span>SCREEN</span><strong>800 × 480</strong></div><div><span>主操作画面</span><strong>13 <small>页</small></strong></div><div><span>报警定义</span><strong>14 <small>条</small></strong></div><div><span>原工程实践</span><p><i></i> 已完成编译与硬件验证</p></div></div>
+    </section>
+    <section class="viewer" aria-label="触摸屏画面浏览器">
+      <div class="viewer-head"><div><p class="eyebrow">SCREEN EXPLORER</p><h2>浏览工程画面</h2></div><div class="shortcuts"><button data-target="8">自动运行</button><button data-target="3">手动控制</button><button data-target="9">报警记录</button></div></div>
+      <div class="viewer-body"><nav id="screens" aria-label="画面列表"></nav><div class="stage-area"><div class="stage-heading"><span id="page-number"></span><h3 id="page-title"></h3><a id="open-image" target="_blank" rel="noopener">查看大图 ↗</a></div><div class="screen-frame"><img id="screen-image" width="800" height="480" alt=""></div><p id="page-feature"></p><p class="preview-note">静态预览按工程控件和坐标生成，部分样式简化；动态数据以“—”表示。此页面用于浏览方案，设备操作请使用 TouchWin 工程。</p></div></div>
+    </section>
+    <section class="capabilities"><article><span>01 / OPERATION</span><h2>模块化手动控制</h2><p>按输送、搬运、灌装和旋盖称重划分操作入口，组织点动、持续运行、气缸、急停与复位按钮。</p></article><article><span>02 / OBSERVABILITY</span><h2>状态与异常可见</h2><p>集中展示自动运行、库位和过程状态，配套报警信息、确认时间与恢复记录页面。</p></article><article><span>03 / CONFIGURATION</span><h2>参数与 I/O 分开管理</h2><p>机械参数、运动参数和 I/O 说明独立成页，便于检查速度、距离、行程及控制点位。</p></article></section>
+    <section class="role"><h2>个人实践与归档</h2><p>我负责触摸屏界面和手动控制相关工作。原工程已完成 TouchWin 编译与硬件验证；本仓库整理了脱敏工程、画面预览、功能说明和归档检查工具。</p><a href="https://github.com/ton242678-glitch/industrial-hmi-panel/blob/main/docs/engineering.md">查看工程说明 ↗</a></section>
+  </main><footer>Ton · 自动化学习与项目展示 <span>TS5-700-E/W/4G · 800 × 480</span></footer>
+</body></html>
